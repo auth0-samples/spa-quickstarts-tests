@@ -1,0 +1,16 @@
+{
+  "name": "spa-quickstarts-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codecept",
+  "dependencies": {},
+  "devDependencies": {
+    "codeceptjs": "^1.1.7"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/codeceptjs run-multiple --all"
+  },
+  "keywords": [],
+  "author": "https://github.com/lbalmaceda",
+  "license": "MIT"
+}
