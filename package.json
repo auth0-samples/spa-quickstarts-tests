@@ -5,10 +5,11 @@
   "main": "codecept",
   "dependencies": {},
   "devDependencies": {
-    "codeceptjs": "^1.1.7"
+    "codeceptjs": "^2.0.4",
+    "puppeteer": "^1.12.2"
   },
   "scripts": {
-    "test": "./node_modules/.bin/codeceptjs run-multiple --all"
+    "test": "./node_modules/.bin/codeceptjs run-multiple --all --steps"
   },
   "keywords": [],
   "author": "https://github.com/lbalmaceda",
