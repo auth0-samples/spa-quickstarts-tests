@@ -10,6 +10,7 @@ Scenario("Log in using Lock", I => {
   I.fillField('input[name="password"]', "asdasd");
   I.click(".auth0-lock-widget-container .auth0-lock-submit");
   I.waitForVisible("#profileDropDown", 20);
+  I.wait(3);
   I.click("#profileDropDown");
   I.waitForVisible("#qsLogoutBtn");
   I.click("#qsLogoutBtn");
