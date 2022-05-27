@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "codeceptjs": "^2.0.4",
-    "puppeteer": "^12.0.0"
+    "puppeteer": "^12.0.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/codeceptjs run-multiple --all --steps"
