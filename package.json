@@ -5,7 +5,7 @@
   "main": "codecept",
   "dependencies": {},
   "devDependencies": {
-    "codeceptjs": "^2.6.11",
+    "codeceptjs": "^3.0.0",
     "puppeteer": "^12.0.1"
   },
   "scripts": {
