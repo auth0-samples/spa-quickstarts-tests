@@ -20,6 +20,7 @@ Scenario("Log in using Lock", async I => {
     I.amOnPage("/");
   } catch (error) {
     console.log(I.grabBrowserLogs());
+    throw error
   }
 
 });
