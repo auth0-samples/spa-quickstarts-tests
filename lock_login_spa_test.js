@@ -19,7 +19,7 @@ Scenario("Log in using Lock", async I => {
     I.waitForVisible("#qsLoginBtn", 20);
     I.amOnPage("/");
   } catch (error) {
-    console.log(I.grabBrowserLogs());
+    console.log(await I.grabBrowserLogs());
     throw error
   }
 
