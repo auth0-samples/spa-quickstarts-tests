@@ -1,6 +1,6 @@
 Feature("SPA login with new responsive design");
 
-Scenario("Log in using Lock", I => {
+Scenario("Log in using Lock", ({ I }) => {
   I.amOnPage("/");
   I.waitForVisible("#qsLoginBtn", 20);
   I.click("#qsLoginBtn");
