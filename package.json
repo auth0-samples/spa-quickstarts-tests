@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "codecept",
-  "dependencies": {},
   "devDependencies": {
-    "codeceptjs": "^3.0.0",
-    "puppeteer": "^12.0.1"
+    "codeceptjs": "^3.4.1",
+    "puppeteer": "^20.7.3"
   },
   "scripts": {
     "test": "./node_modules/.bin/codeceptjs run-multiple --all --steps"
