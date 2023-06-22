@@ -1,9 +1,7 @@
 Feature('SPA login');
 
 Scenario('Log in using Lock', ({ I }) => {
-    I.amOnPage('/');
-    I.waitForVisible('#qsLoginBtn', 3);
-    I.click('#qsLoginBtn');
+    I.amOnPage('/login');
     I.waitForVisible('input[name="password"]', 5);
     I.wait(1);
     I.fillField('input[name="username"]', 'asdasd');
