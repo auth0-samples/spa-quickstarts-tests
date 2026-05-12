@@ -1,14 +1,14 @@
 {
   "name": "spa-quickstarts-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "codecept",
+  "description": "End-to-end tests for Auth0 quickstart samples",
   "devDependencies": {
-    "codeceptjs": "^3.5.0",
-    "puppeteer": "^20.9.0"
+    "@playwright/test": "^1.52.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/codeceptjs run-multiple --all --steps"
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox"
   },
   "keywords": [],
   "author": "https://github.com/lbalmaceda",
